@@ -7,7 +7,7 @@
 
 ## Setup
 
-Run the following commands:
+(1) Run the following commands:
 
 ```bash
 # Install dependencies (only the first time)
@@ -22,6 +22,8 @@ yarn dev --host
 # Build for production in the dist/ directory
 yarn build
 ```
+
+(2) Change `appId` with yours in `index.html`
 
 ## How to use?
 
