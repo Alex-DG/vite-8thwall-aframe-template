@@ -1,14 +1,16 @@
 {
   "name": "vite-8thwall-aframe-template",
+  "description": "Minimal reusable template with 8thWall and A-Frame",
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^2.9.9"
+    "vite": "4.2.0",
+    "@vitejs/plugin-basic-ssl": "1.0.1"
   },
   "dependencies": {}
 }
