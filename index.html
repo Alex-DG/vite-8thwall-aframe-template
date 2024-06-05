@@ -47,7 +47,7 @@
       <!-- The raycaster will emit mouse events on scene objects specified with the cantap class -->
       <a-camera
         id="camera"
-        position="0 8 0"
+        position="0 6 4"
         raycaster="objects: .cantap"
         cursor="
        fuse: false;
@@ -74,6 +74,13 @@
       </a-entity>
 
       <a-light type="ambient" intensity="0.5"></a-light>
+
+      <a-box
+        rotation="0 45 0"
+        position="-0.25 0.5 -1"
+        color="hotpink"
+        shadow
+      ></a-box>
 
       <!-- Adding the cantap class allows the ground to be clicked -->
       <a-box
