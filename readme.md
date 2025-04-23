@@ -6,7 +6,6 @@
 - Based on 8thwall [demo](https://github.com/8thwall/web/tree/master/examples/aframe/placeground)
 
 ## Setup
-## Setup
 
 1. Create `.env.local` file in the project root and add your 8th Wall key inside:
 
@@ -26,7 +25,6 @@ yarn dev
 # Build for production in the dist/ directory
 yarn build
 ```
-
 
 (2) Change `appId` with yours in `index.html`
 
