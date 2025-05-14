@@ -26,8 +26,6 @@ yarn dev
 yarn build
 ```
 
-(2) Change `appId` with yours in `index.html`
-
 ## How to use?
 
 - Tap on the ground to grow trees
