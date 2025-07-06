@@ -5,9 +5,8 @@ import basicSsl from '@vitejs/plugin-basic-ssl'
 const htmlPlugin = (env) => {
   return {
     name: 'html-transform',
-    transformIndexHtml: {
-      transform: (html) =>
-        html.replace(/%(.*?)%/g, (match, p1) => env[p1] ?? match),
+    transformIndexHtml(html) {
+      return html.replace(/%(.*?)%/g, (_, p) => env[p] ?? _)
     },
   }
 }
