@@ -3,6 +3,7 @@
   "description": "Minimal reusable template with 8thWall and A-Frame",
   "private": true,
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build",
